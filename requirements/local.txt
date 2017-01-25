@@ -1,0 +1,20 @@
+# Local development dependencies go here
+-r base.txt
+coverage
+django-coverage-plugin
+django-extensions
+Werkzeug
+django-test-plus
+factory-boy
+
+django-debug-toolbar
+
+# improved REPL
+ipdb
+
+pytest-django
+pytest-sugar
+
+
+# Test Stuff
+flake8

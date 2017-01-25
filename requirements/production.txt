@@ -1,0 +1,23 @@
+# Pro-tip: Try not to put anything here. Avoid dependencies in
+#	production that aren't in development.
+-r base.txt
+
+
+
+# WSGI Handler
+# ------------------------------------------------
+gevent
+gunicorn
+
+# Static and Media Storage
+# ------------------------------------------------
+boto
+django-storages-redux
+Collectfast
+
+# Email backends for Mailgun, Postmark, SendGrid and more
+# -------------------------------------------------------
+django-anymail
+
+# Heroku required apps
+dj_database_url

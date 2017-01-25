@@ -1,0 +1,15 @@
+django
+
+django-environ
+whitenoise
+
+psycopg2
+
+pytz
+
+django-redis
+redis
+
+djangorestframework
+django-rest-swagger
+djoser
